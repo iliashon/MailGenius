@@ -1,19 +1,19 @@
-#h1_cat {
-    background: red;
-    width: 300px;
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+img {
+    width: 200px;
+    margin: 0 auto;
 }
 p {
     width: 300px;
+    text-align: center;
 }
-#h2_cat {
-    color: aqua;
+h1 {
+    text-align: center;
 }
-.lorem {
-    width: 300px;
-}
-img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+* {
+    margin: 0 auto;
+    text-align: center;
 }

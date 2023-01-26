@@ -1,19 +1,12 @@
-#h1_cat {
-    background: red;
-    width: 300px;
+table, th, td {
+    border: 1px solid;
+    margin: 0 auto;
+    width: 800px;
 }
-p {
-    width: 300px;
-}
-#h2_cat {
-    color: aqua;
-}
-.lorem {
-    width: 300px;
+.nav {
+    width: 180px; 
+    vertical-align: top;
 }
 img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+    width: 300px;
 }

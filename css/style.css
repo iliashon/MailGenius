@@ -1,19 +1,32 @@
-#h1_cat {
-    background: red;
+.wrapper1_div, .wrapper3_div {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+}
+.wrapper2_div {
+    display: none;
+}
+.wrapper1 {
+    background-color: aquamarine;
     width: 300px;
+    height: 100px;
+    text-align: center;
 }
-p {
+.wrapper1_div {
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+}
+.wrapper2 {
+    width: 100vw;
+    background-color: bisque;
+    height: 100px;
+}
+.wrapper3 {
     width: 300px;
+    height: 100vh;
+    background-color: brown;
 }
-#h2_cat {
-    color: aqua;
-}
-.lorem {
-    width: 300px;
-}
-img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+.wrapper3_div {
+    border: 1px solid;
 }

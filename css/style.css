@@ -1,19 +1,15 @@
-#h1_cat {
-    background: red;
-    width: 300px;
+h1, h3 {
+    color: red;
 }
-p {
-    width: 300px;
+h2 {
+    color: blue;
 }
-#h2_cat {
-    color: aqua;
+.border {
+    border: 1px solid;
 }
-.lorem {
-    width: 300px;
+.blue_p {
+    background-color: blue;
 }
-img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+.yellow_p {
+    background-color: yellow;
 }

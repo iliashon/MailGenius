@@ -1,19 +1,16 @@
-#h1_cat {
-    background: red;
+.lorem_50, .lorem_100 {
     width: 300px;
+    height: 100px;
+    margin: 0 auto;
 }
-p {
-    width: 300px;
+.lorem_50 {
+    border: 4px solid blue;
+    outline: 4px solid;
+    overflow: hidden;
+    background-color: antiquewhite;
 }
-#h2_cat {
-    color: aqua;
-}
-.lorem {
-    width: 300px;
-}
-img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+.lorem_100 {
+    margin-top: 10px;
+    overflow: auto;
+    background-color: antiquewhite;
 }

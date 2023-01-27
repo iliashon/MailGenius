@@ -1,7 +1,28 @@
+* {
+    margin: 0;
+}
 div {
-    border: 1px solid;
-    width: 300px;
-    height: 300px;
+    width: 100vw;
+}
+.wrapper {
+    background-color: blueviolet;
+    height: 50px;
+    position: fixed;
+    z-index: 1;
+}
+.wrapper2 {
+    background-color: aquamarine;
+    height: 200px;
+}
+.wrapper4 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
     position: absolute;
-    top: 5px;
+    right: 300px;
+    top: 150px;
+}
+.wrapper3 {
+    background-color: brown;
+    height: 100vh;
 }

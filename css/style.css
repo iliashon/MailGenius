@@ -1,7 +1,30 @@
-div {
+.wrapper{
+    width: 500px;
+    height: 500px;
     border: 1px solid;
-    width: 300px;
-    height: 300px;
+    position: relative;
+}
+.circle1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: brown;
+}
+.circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
     position: absolute;
-    top: 5px;
+    top: 100px;
+    left: 100px;
+}
+.circle3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    top: 150px;
+    left: 150px;
 }

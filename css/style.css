@@ -1,19 +1,41 @@
-#h1_cat {
-    background: red;
-    width: 300px;
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0 20px 0;
 }
-p {
-    width: 300px;
+.wrapper-title {
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px 20px;
 }
-#h2_cat {
-    color: aqua;
+.wrapper-blok {
+    width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: brown;
 }
-.lorem {
-    width: 300px;
+.block-1, .block-3 {
+    background-color: azure;
 }
-img {
-    width: 400px;
+.block-2 {
+    background-color: red;
 }
-a {
+.item-block {
+    margin: 10px 10px;
+    text-align: center;
+}
+.wrapper-menu {
+    width: 600px;
+    background-color: aquamarine;
+    margin: 10px auto;
+    padding: 15px;
+    text-align: center;
+}
+.link-item {
+    background-color: blanchedalmond;
+    padding: 10px;
     text-decoration: none;
+    border: 1px solid;
 }

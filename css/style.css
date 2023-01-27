@@ -1,19 +1,7 @@
-#h1_cat {
-    background: red;
+div {
+    border: 1px solid;
     width: 300px;
-}
-p {
-    width: 300px;
-}
-#h2_cat {
-    color: aqua;
-}
-.lorem {
-    width: 300px;
-}
-img {
-    width: 400px;
-}
-a {
-    text-decoration: none;
+    height: 300px;
+    position: absolute;
+    top: 5px;
 }
